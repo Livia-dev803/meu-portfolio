@@ -3,33 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio | ADS</title>
+    <title>Portfólio | Lívia</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Ícones via FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+
+    <!-- Header / Nav -->
     <header>
-        <h1>Olá, eu sou a Lívia 👋</h1>
-        <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+        <div class="logo">L.</div>
+        <nav>
+            <a href="#projetos">Projetos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <a href="#contato" class="btn-secondary">Fale comigo</a>
     </header>
 
-    <main>
-        <section class="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Atualmente no último semestre de ADS, focando em aprender o desenvolvimento prático de software e banco de dados. Tenho facilidade com organização, processos e muita vontade de aprender em equipe.</p>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Desenvolvimento de Software</span>
+            <h1>Olá, <br>sou <span>Lívia</span></h1>
+            <p class="subtitle">
+                Estudante e entusiasta de Tecnologia. Focada em criar interfaces web funcionais, 
+                estruturação de bancos de dados e desenvolvimento de software.
+            </p>
+            <div class="hero-btns">
+                <a href="#projetos" class="btn-primary">Ver projetos</a>
+                <a href="#contato" class="btn-secondary">Entre em contato</a>
+            </div>
+            <div class="location-tag">
+                <i class="fa-solid fa-location-dot"></i> Fortaleza - CE, Brasil
+            </div>
+        </div>
+    </section>
 
-        <section class="estudos">
-            <h2>O que estou estudando:</h2>
-            <ul>
-                <li><strong>Lógica de Programação</strong> e JavaScript</li>
-                <li>Estrutura de Páginas Web (HTML5 e CSS3)</li>
-                <li>Conceitos de Banco de Dados (SQL)</li>
-            </ul>
-        </section>
-    </main>
+    <!-- Projetos e Competências -->
+    <section id="projetos" class="section-container">
+        <span class="section-tag">PORTFÓLIO</span>
+        <h2>Projetos e competências</h2>
+        <p class="section-desc">Aplicações práticas dos meus estudos em desenvolvimento, estruturação e código.</p>
+
+        <div class="grid-cards">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-tag">Front-end</div>
+                <h3>Interfaces Web Responsivas</h3>
+                <p>Desenvolvimento de páginas e componentes dinâmicos focando em boas práticas de usabilidade, layout moderno e acessibilidade.</p>
+
+                <div class="tech-stack">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <div class="card-tag">Banco de Dados</div>
+                <h3>Modelagem & Consultas SQL</h3>
+                <p>Estruturação de bancos de dados relacionais, criação de esquemas e escrita de queries para manipulação de dados.</p>
+
+                <div class="tech-stack">
+                    <span>SQL</span>
+                    <span>Relational DB</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <div class="card-tag">Lógica & Backend</div>
+                <h3>Aplicações e Algoritmos</h3>
+                <p>Construção de rotinas e pequenos sistemas aplicando lógica de programação, orientação a objetos e controle de versão.</p>
+
+                <div class="tech-stack">
+                    <span>Java</span>
+                    <span>JavaScript</span>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre & Formação -->
+    <section id="sobre" class="section-container">
+        <span class="section-tag">SOBRE MIM</span>
+        <h2>Trajetória e foco constante em evolução</h2>
+
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Sou movida pela curiosidade e pelo desafio de transformar problemas reais em soluções tecnológicas eficientes.
+                    Atualmente dedico meu tempo ao estudo contínuo de linguagens de programação, desenvolvimento web e banco de dados, 
+                    construindo projetos práticos para consolidar minha base técnica.
+                </p>
+            </div>
+
+            <div class="education-box">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Formação</h3>
+                <div class="edu-item">
+                    <h4>Graduação em Tecnologia</h4>
+                    <p>Em andamento • Foco em Desenvolvimento e Arquitetura de Software</p>
+                </div>
+
+                <h3><i class="fa-solid fa-language"></i> Idiomas</h3>
+                <div class="edu-item">
+                    <p><strong>Português:</strong> Nativo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section-container contact-section">
+        <h2>Vamos conversar ou construir algo juntos?</h2>
+        <p>Estou aberta a oportunidades, estágios e colaborações em projetos de tecnologia.</p>
+
+        <div class="contact-links">
+            <a href="https://github.com/SEU_USUARIO" target="_blank" class="contact-card">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/SEU_PERFIL" target="_blank" class="contact-card">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="mailto:seuemail@email.com" class="contact-card">
+                <i class="fa-solid fa-envelope"></i>
+                <span>E-mail</span>
+            </a>
+        </div>
+    </section>
 
     <footer>
-        <p>Conecte-se comigo no <a href="SEU_LINK_DO_LINKEDIN_AQUI" target="_blank">LinkedIn</a></p>
+        <p>© Lívia. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>

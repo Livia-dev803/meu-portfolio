@@ -85,7 +85,7 @@ nav a:hover {
     background: rgba(255, 255, 255, 0.05);
 }
 
-/* Hero Section (Ajustada para Texto + Foto Lado a Lado) */
+/* Hero Section */
 .hero {
     padding: 6rem 10% 4rem 10%;
     max-width: 1200px;
@@ -160,7 +160,7 @@ nav a:hover {
     border-color: var(--accent-blue);
 }
 
-/* Sections General */
+/* Sections */
 .section-container {
     padding: 5rem 10%;
     max-width: 1200px;
